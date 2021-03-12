@@ -2,6 +2,8 @@ import '../styles/globals.css';
 import '../styles/tailwind.css';
 import App from 'next/app';
 import Head from 'next/head';
+import absoluteUrl from "next-absolute-url";
+
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,6 +17,7 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
+
 
 
 

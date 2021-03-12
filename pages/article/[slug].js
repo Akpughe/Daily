@@ -24,7 +24,7 @@ const Article = ({ article }) => {
             <h2 className="text-black text-4xl mt-8 font-bold">
               {article.Title}{' '}
             </h2>
-            <p className="text-black text-justify text-lg mt-5 px-8 ">
+            <p className="text-black text-justify text-lg mt-5 px-40 ">
               {article.Content}
             </p>
           </div>
